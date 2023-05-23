@@ -1,7 +1,7 @@
 # Sistem Diagnosa Penyakit
 Ini adalah implementasi sistem pakar dengan menggunakan metode Certainty Factor, project yang saya gunakan sebagai tugas akhir semester pada mata kuliah Sistem Pakar.
 
-![App Screenshot](https://github.com/superXdev/QAdmin/blob/main/public/dist/img/screenshot/ss.png?raw=true)
+![App Screenshot](https://github.com/superXdev/Sistem-Diagnosa-Penyakit/blob/main/public/dist/img/screenshot/dashboard.png?raw=true)
 
   
 
@@ -25,7 +25,7 @@ Ini adalah implementasi sistem pakar dengan menggunakan metode Certainty Factor,
 
 You can fork or clone this project
 
-``` 
+```sh
 git clone https://github.com/superXdev/Sistem-Diagnosa-Penyakit
 cd Sistem-Diagnosa-Penyakit
 composer install
@@ -34,9 +34,19 @@ php artisan install
 ```
 That's it!
 
+### Sample data
+Membuat banyak hasil diagnosa untuk contoh
+```sh
+php artisan generate:diagnosa <total>
+```
+Argument `<total>` bersifat opsional
+
 ## Admin credentials
 - **Username:** admin
 - **Password:** admin123
+
+## Hasil Diagnosa
+![diagnosa](https://github.com/superXdev/Sistem-Diagnosa-Penyakit/blob/main/public/dist/img/screenshot/diagnosa.png?raw=true)
 
 ## Running Tests
 
